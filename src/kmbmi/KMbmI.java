@@ -21,8 +21,8 @@ public class KMbmI {
         
         JOptionPane.showMessageDialog(null, "Welcome to BMI Calculater");
         // ask for height and Weight
-        Weight = JOptionPane.showInputDialog("Enter Your Weight In Kilograms");
-        Height= JOptionPane.showInputDialog( "Enter Your Height in Meters");
+        Weight = JOptionPane.showInputDialog(null, "Enter Your Weight In Kilograms");
+        Height= JOptionPane.showInputDialog( null, "Enter Your Height in Meters");
         // Convert Variables to doubles
         
       W = Double.valueOf(Weight);
@@ -36,6 +36,10 @@ public class KMbmI {
      
         System.out.println("Your BMI is: "+bMI);  
         JOptionPane.showMessageDialog(null,"Your BMI is:"+bMI);
+        if (bMI>=25){
+            JOptionPane.showMessageDialog(null, "You Need to Diet and Exercise!");
+            
+        }
         
         
     }
