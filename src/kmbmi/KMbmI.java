@@ -23,7 +23,7 @@ public class KMbmI {
         // ask for height and Weight
         Weight = JOptionPane.showInputDialog("Enter Your Weight In Kilograms");
         Height= JOptionPane.showInputDialog( "Enter Your Height in Meters");
-        // Convert Variables to Integers
+        // Convert Variables to doubles
         
       W = Double.valueOf(Weight);
       H = Double.valueOf(Height);
@@ -34,8 +34,8 @@ public class KMbmI {
       
       
      
-        System.out.println("Your BMI is" +bMI);  
-        JOptionPane.showMessageDialog(null, "Your BMI is: +bMI");
+        System.out.println("Your BMI is: "+bMI);  
+        JOptionPane.showMessageDialog(null,"Your BMI is:"+bMI);
         
         
     }
