@@ -32,10 +32,10 @@ public class KMbmI {
       double HH = H*H;
       double bMI = W/HH;
       
-      
+      long bmI = Math.round(bMI);
      
-        System.out.println("Your BMI is: "+bMI);  
-        JOptionPane.showMessageDialog(null,"Your BMI is:"+bMI);
+        System.out.println("Your BMI is: "+bmI);  
+        JOptionPane.showMessageDialog(null,"Your BMI is:"+bmI);
         if (bMI>=25){
             JOptionPane.showMessageDialog(null, "You Need to Diet and Exercise!");}
         if (bMI<=25){
