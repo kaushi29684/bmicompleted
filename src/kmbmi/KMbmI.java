@@ -32,12 +32,12 @@ public class KMbmI {
       double HH = H*H;
       double bMI = W/HH;
       
-      // turn value of BMI to string 
+      
      
-      String BMI = Double.toString(bMI);
+        System.out.println("Your BMI is" +bMI);  
+        JOptionPane.showMessageDialog(null, "Your BMI is: +bMI");
         
-                JOptionPane.showMessageDialog
-                
+        
     }
     
 }
