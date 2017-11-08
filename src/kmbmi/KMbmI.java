@@ -37,8 +37,9 @@ public class KMbmI {
         System.out.println("Your BMI is: "+bMI);  
         JOptionPane.showMessageDialog(null,"Your BMI is:"+bMI);
         if (bMI>=25){
-            JOptionPane.showMessageDialog(null, "You Need to Diet and Exercise!");
-            
+            JOptionPane.showMessageDialog(null, "You Need to Diet and Exercise!");}
+        if (bMI<=25){
+            JOptionPane.showMessageDialog(null, "You are in Good Shape. Keep it Up!");
         }
         
         
